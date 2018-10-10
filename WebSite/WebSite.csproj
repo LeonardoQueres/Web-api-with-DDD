@@ -1,0 +1,302 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>52ec7665-749c-4f6f-b06f-04a749cd90f1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="bootstrap" Version="4.1.1" />
+    <PackageReference Include="font-awesome" Version="4.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="2.8.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap\CHANGELOG.md" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\Gemfile" />
+    <None Include="wwwroot\lib\bootstrap\Gemfile.lock" />
+    <None Include="wwwroot\lib\bootstrap\Gruntfile.js" />
+    <None Include="wwwroot\lib\bootstrap\grunt\.jshintrc" />
+    <None Include="wwwroot\lib\bootstrap\grunt\bs-commonjs-generator.js" />
+    <None Include="wwwroot\lib\bootstrap\grunt\bs-glyphicons-data-generator.js" />
+    <None Include="wwwroot\lib\bootstrap\grunt\bs-lessdoc-parser.js" />
+    <None Include="wwwroot\lib\bootstrap\grunt\bs-raw-files-generator.js" />
+    <None Include="wwwroot\lib\bootstrap\grunt\change-version.js" />
+    <None Include="wwwroot\lib\bootstrap\grunt\sauce_browsers.yml" />
+    <None Include="wwwroot\lib\bootstrap\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lib\bootstrap\js\.jscsrc" />
+    <None Include="wwwroot\lib\bootstrap\js\.jshintrc" />
+    <None Include="wwwroot\lib\bootstrap\js\affix.js" />
+    <None Include="wwwroot\lib\bootstrap\js\alert.js" />
+    <None Include="wwwroot\lib\bootstrap\js\button.js" />
+    <None Include="wwwroot\lib\bootstrap\js\carousel.js" />
+    <None Include="wwwroot\lib\bootstrap\js\collapse.js" />
+    <None Include="wwwroot\lib\bootstrap\js\dropdown.js" />
+    <None Include="wwwroot\lib\bootstrap\js\modal.js" />
+    <None Include="wwwroot\lib\bootstrap\js\popover.js" />
+    <None Include="wwwroot\lib\bootstrap\js\scrollspy.js" />
+    <None Include="wwwroot\lib\bootstrap\js\tab.js" />
+    <None Include="wwwroot\lib\bootstrap\js\tooltip.js" />
+    <None Include="wwwroot\lib\bootstrap\js\transition.js" />
+    <None Include="wwwroot\lib\bootstrap\less\.csslintrc" />
+    <None Include="wwwroot\lib\bootstrap\less\alerts.less" />
+    <None Include="wwwroot\lib\bootstrap\less\badges.less" />
+    <None Include="wwwroot\lib\bootstrap\less\bootstrap.less" />
+    <None Include="wwwroot\lib\bootstrap\less\breadcrumbs.less" />
+    <None Include="wwwroot\lib\bootstrap\less\button-groups.less" />
+    <None Include="wwwroot\lib\bootstrap\less\buttons.less" />
+    <None Include="wwwroot\lib\bootstrap\less\carousel.less" />
+    <None Include="wwwroot\lib\bootstrap\less\close.less" />
+    <None Include="wwwroot\lib\bootstrap\less\code.less" />
+    <None Include="wwwroot\lib\bootstrap\less\component-animations.less" />
+    <None Include="wwwroot\lib\bootstrap\less\dropdowns.less" />
+    <None Include="wwwroot\lib\bootstrap\less\forms.less" />
+    <None Include="wwwroot\lib\bootstrap\less\glyphicons.less" />
+    <None Include="wwwroot\lib\bootstrap\less\grid.less" />
+    <None Include="wwwroot\lib\bootstrap\less\input-groups.less" />
+    <None Include="wwwroot\lib\bootstrap\less\jumbotron.less" />
+    <None Include="wwwroot\lib\bootstrap\less\labels.less" />
+    <None Include="wwwroot\lib\bootstrap\less\list-group.less" />
+    <None Include="wwwroot\lib\bootstrap\less\media.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\alerts.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\background-variant.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\border-radius.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\buttons.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\center-block.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\clearfix.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\forms.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\gradients.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\grid-framework.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\grid.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\hide-text.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\image.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\labels.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\list-group.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\nav-divider.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\nav-vertical-align.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\opacity.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\pagination.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\panels.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\progress-bar.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\reset-filter.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\reset-text.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\resize.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\responsive-visibility.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\size.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\tab-focus.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\table-row.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\text-emphasis.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\text-overflow.less" />
+    <None Include="wwwroot\lib\bootstrap\less\mixins\vendor-prefixes.less" />
+    <None Include="wwwroot\lib\bootstrap\less\modals.less" />
+    <None Include="wwwroot\lib\bootstrap\less\navbar.less" />
+    <None Include="wwwroot\lib\bootstrap\less\navs.less" />
+    <None Include="wwwroot\lib\bootstrap\less\normalize.less" />
+    <None Include="wwwroot\lib\bootstrap\less\pager.less" />
+    <None Include="wwwroot\lib\bootstrap\less\pagination.less" />
+    <None Include="wwwroot\lib\bootstrap\less\panels.less" />
+    <None Include="wwwroot\lib\bootstrap\less\popovers.less" />
+    <None Include="wwwroot\lib\bootstrap\less\print.less" />
+    <None Include="wwwroot\lib\bootstrap\less\progress-bars.less" />
+    <None Include="wwwroot\lib\bootstrap\less\responsive-embed.less" />
+    <None Include="wwwroot\lib\bootstrap\less\responsive-utilities.less" />
+    <None Include="wwwroot\lib\bootstrap\less\scaffolding.less" />
+    <None Include="wwwroot\lib\bootstrap\less\tables.less" />
+    <None Include="wwwroot\lib\bootstrap\less\theme.less" />
+    <None Include="wwwroot\lib\bootstrap\less\thumbnails.less" />
+    <None Include="wwwroot\lib\bootstrap\less\tooltip.less" />
+    <None Include="wwwroot\lib\bootstrap\less\type.less" />
+    <None Include="wwwroot\lib\bootstrap\less\utilities.less" />
+    <None Include="wwwroot\lib\bootstrap\less\variables.less" />
+    <None Include="wwwroot\lib\bootstrap\less\wells.less" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\bootstrap\nuget\bootstrap.less.nuspec" />
+    <None Include="wwwroot\lib\bootstrap\nuget\bootstrap.nuspec" />
+    <None Include="wwwroot\lib\bootstrap\nuget\MyGet.ps1" />
+    <None Include="wwwroot\lib\bootstrap\package.js" />
+    <None Include="wwwroot\lib\bootstrap\README.md" />
+    <None Include="wwwroot\lib\jquery-confirm2\css\jquery-confirm.less" />
+    <None Include="wwwroot\lib\jquery-confirm2\demo\demo.js" />
+    <None Include="wwwroot\lib\jquery-confirm2\demo\libs\bundled.js" />
+    <None Include="wwwroot\lib\jquery-confirm2\demo\libs\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\jquery-confirm2\demo\libs\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\jquery-confirm2\demo\logo-name.svg" />
+    <None Include="wwwroot\lib\jquery-confirm2\dist\jquery-confirm.min.js" />
+    <None Include="wwwroot\lib\jquery-confirm2\js\jquery-confirm.js" />
+    <None Include="wwwroot\lib\jquery-confirm2\LICENSE" />
+    <None Include="wwwroot\lib\jquery-confirm2\README.md" />
+    <None Include="wwwroot\lib\jquery-form\.circleci\config.yml" />
+    <None Include="wwwroot\lib\jquery-form\.editorconfig" />
+    <None Include="wwwroot\lib\jquery-form\.eslintrc.js" />
+    <None Include="wwwroot\lib\jquery-form\.github\issue_template.md" />
+    <None Include="wwwroot\lib\jquery-form\.gitignore" />
+    <None Include="wwwroot\lib\jquery-form\.travis.yml" />
+    <None Include="wwwroot\lib\jquery-form\CODE_OF_CONDUCT.md" />
+    <None Include="wwwroot\lib\jquery-form\CONTRIBUTING.md" />
+    <None Include="wwwroot\lib\jquery-form\CONTRIBUTORS.md" />
+    <None Include="wwwroot\lib\jquery-form\dist\jquery.form.min.js" />
+    <None Include="wwwroot\lib\jquery-form\dist\jquery.form.min.js.map" />
+    <None Include="wwwroot\lib\jquery-form\docs\.gitignore" />
+    <None Include="wwwroot\lib\jquery-form\docs\api.md" />
+    <None Include="wwwroot\lib\jquery-form\docs\assets\css\style.scss" />
+    <None Include="wwwroot\lib\jquery-form\docs\faq.md" />
+    <None Include="wwwroot\lib\jquery-form\docs\Gemfile" />
+    <None Include="wwwroot\lib\jquery-form\docs\index.md" />
+    <None Include="wwwroot\lib\jquery-form\docs\options.md" />
+    <None Include="wwwroot\lib\jquery-form\docs\_config.yml" />
+    <None Include="wwwroot\lib\jquery-form\docs\_sass\style.scss" />
+    <None Include="wwwroot\lib\jquery-form\Gruntfile.js" />
+    <None Include="wwwroot\lib\jquery-form\install\pre-commit.sh" />
+    <None Include="wwwroot\lib\jquery-form\install\template\shell.hb" />
+    <None Include="wwwroot\lib\jquery-form\LICENSE" />
+    <None Include="wwwroot\lib\jquery-form\LICENSE-MIT" />
+    <None Include="wwwroot\lib\jquery-form\src\jquery.form.js" />
+    <None Include="wwwroot\lib\jquery-form\test\.eslintrc.js" />
+    <None Include="wwwroot\lib\jquery-form\test\test.js" />
+    <None Include="wwwroot\lib\jquery-form\_config.yml" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\CHANGELOG.md" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\CONTRIBUTING.md" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\dist\jquery.mask.js" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\dist\jquery.mask.min.js" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\docker-compose.yml" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\Dockerfile" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\LICENSE" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\package.js" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\README.md" />
+    <None Include="wwwroot\lib\jquery-mask-plugin\src\jquery.mask.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery.blockui\jquery.blockUI.js" />
+    <None Include="wwwroot\lib\jquery.blockui\README.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\src\ajax.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\jsonp.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\load.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\parseJSON.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\parseXML.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\script.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\var\nonce.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\var\rquery.js" />
+    <None Include="wwwroot\lib\jquery\src\ajax\xhr.js" />
+    <None Include="wwwroot\lib\jquery\src\attributes.js" />
+    <None Include="wwwroot\lib\jquery\src\attributes\attr.js" />
+    <None Include="wwwroot\lib\jquery\src\attributes\classes.js" />
+    <None Include="wwwroot\lib\jquery\src\attributes\prop.js" />
+    <None Include="wwwroot\lib\jquery\src\attributes\support.js" />
+    <None Include="wwwroot\lib\jquery\src\attributes\val.js" />
+    <None Include="wwwroot\lib\jquery\src\callbacks.js" />
+    <None Include="wwwroot\lib\jquery\src\core.js" />
+    <None Include="wwwroot\lib\jquery\src\core\access.js" />
+    <None Include="wwwroot\lib\jquery\src\core\init.js" />
+    <None Include="wwwroot\lib\jquery\src\core\parseHTML.js" />
+    <None Include="wwwroot\lib\jquery\src\core\ready.js" />
+    <None Include="wwwroot\lib\jquery\src\core\var\rsingleTag.js" />
+    <None Include="wwwroot\lib\jquery\src\css.js" />
+    <None Include="wwwroot\lib\jquery\src\css\addGetHookIf.js" />
+    <None Include="wwwroot\lib\jquery\src\css\curCSS.js" />
+    <None Include="wwwroot\lib\jquery\src\css\defaultDisplay.js" />
+    <None Include="wwwroot\lib\jquery\src\css\hiddenVisibleSelectors.js" />
+    <None Include="wwwroot\lib\jquery\src\css\support.js" />
+    <None Include="wwwroot\lib\jquery\src\css\swap.js" />
+    <None Include="wwwroot\lib\jquery\src\css\var\cssExpand.js" />
+    <None Include="wwwroot\lib\jquery\src\css\var\getStyles.js" />
+    <None Include="wwwroot\lib\jquery\src\css\var\isHidden.js" />
+    <None Include="wwwroot\lib\jquery\src\css\var\rmargin.js" />
+    <None Include="wwwroot\lib\jquery\src\css\var\rnumnonpx.js" />
+    <None Include="wwwroot\lib\jquery\src\data.js" />
+    <None Include="wwwroot\lib\jquery\src\data\accepts.js" />
+    <None Include="wwwroot\lib\jquery\src\data\Data.js" />
+    <None Include="wwwroot\lib\jquery\src\data\var\data_priv.js" />
+    <None Include="wwwroot\lib\jquery\src\data\var\data_user.js" />
+    <None Include="wwwroot\lib\jquery\src\deferred.js" />
+    <None Include="wwwroot\lib\jquery\src\deprecated.js" />
+    <None Include="wwwroot\lib\jquery\src\dimensions.js" />
+    <None Include="wwwroot\lib\jquery\src\effects.js" />
+    <None Include="wwwroot\lib\jquery\src\effects\animatedSelector.js" />
+    <None Include="wwwroot\lib\jquery\src\effects\Tween.js" />
+    <None Include="wwwroot\lib\jquery\src\event.js" />
+    <None Include="wwwroot\lib\jquery\src\event\ajax.js" />
+    <None Include="wwwroot\lib\jquery\src\event\alias.js" />
+    <None Include="wwwroot\lib\jquery\src\event\support.js" />
+    <None Include="wwwroot\lib\jquery\src\exports\amd.js" />
+    <None Include="wwwroot\lib\jquery\src\exports\global.js" />
+    <None Include="wwwroot\lib\jquery\src\intro.js" />
+    <None Include="wwwroot\lib\jquery\src\jquery.js" />
+    <None Include="wwwroot\lib\jquery\src\manipulation.js" />
+    <None Include="wwwroot\lib\jquery\src\manipulation\support.js" />
+    <None Include="wwwroot\lib\jquery\src\manipulation\var\rcheckableType.js" />
+    <None Include="wwwroot\lib\jquery\src\manipulation\_evalUrl.js" />
+    <None Include="wwwroot\lib\jquery\src\offset.js" />
+    <None Include="wwwroot\lib\jquery\src\outro.js" />
+    <None Include="wwwroot\lib\jquery\src\queue.js" />
+    <None Include="wwwroot\lib\jquery\src\queue\delay.js" />
+    <None Include="wwwroot\lib\jquery\src\selector-native.js" />
+    <None Include="wwwroot\lib\jquery\src\selector-sizzle.js" />
+    <None Include="wwwroot\lib\jquery\src\selector.js" />
+    <None Include="wwwroot\lib\jquery\src\serialize.js" />
+    <None Include="wwwroot\lib\jquery\src\sizzle\dist\sizzle.js" />
+    <None Include="wwwroot\lib\jquery\src\sizzle\dist\sizzle.min.js" />
+    <None Include="wwwroot\lib\jquery\src\sizzle\dist\sizzle.min.map" />
+    <None Include="wwwroot\lib\jquery\src\traversing.js" />
+    <None Include="wwwroot\lib\jquery\src\traversing\findFilter.js" />
+    <None Include="wwwroot\lib\jquery\src\traversing\var\rneedsContext.js" />
+    <None Include="wwwroot\lib\jquery\src\var\arr.js" />
+    <None Include="wwwroot\lib\jquery\src\var\class2type.js" />
+    <None Include="wwwroot\lib\jquery\src\var\concat.js" />
+    <None Include="wwwroot\lib\jquery\src\var\hasOwn.js" />
+    <None Include="wwwroot\lib\jquery\src\var\indexOf.js" />
+    <None Include="wwwroot\lib\jquery\src\var\pnum.js" />
+    <None Include="wwwroot\lib\jquery\src\var\push.js" />
+    <None Include="wwwroot\lib\jquery\src\var\rnotwhite.js" />
+    <None Include="wwwroot\lib\jquery\src\var\slice.js" />
+    <None Include="wwwroot\lib\jquery\src\var\strundefined.js" />
+    <None Include="wwwroot\lib\jquery\src\var\support.js" />
+    <None Include="wwwroot\lib\jquery\src\var\toString.js" />
+    <None Include="wwwroot\lib\jquery\src\wrap.js" />
+    <None Include="wwwroot\lib\toastr\LICENSE" />
+    <None Include="wwwroot\lib\toastr\README.md" />
+    <None Include="wwwroot\lib\toastr\toastr.js" />
+    <None Include="wwwroot\lib\toastr\toastr.js.map" />
+    <None Include="wwwroot\lib\toastr\toastr.less" />
+    <None Include="wwwroot\lib\toastr\toastr.min.js" />
+    <None Include="wwwroot\lib\toastr\toastr.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aplication\Aplication.csproj" />
+    <ProjectReference Include="..\CrossCutting.IoC\CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Infra.Data\Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\jquery-mask-plugin\test\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.deps.json
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.pdb
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Shared.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\bin\Debug\netcoreapp2.0\Shared.pdb
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csprojAssemblyReference.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.Properties.Resources.resources
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.GenerateResource.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.AssemblyInfoInputs.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.AssemblyInfo.cs
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.CopyComplete
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.deps.json
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Shared.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Shared.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csprojAssemblyReference.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.Properties.Resources.resources
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.GenerateResource.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.AssemblyInfoInputs.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.AssemblyInfo.cs
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.CopyComplete
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.deps.json
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Infra.Data.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Shared.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\bin\Debug\netcoreapp2.0\Shared.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csprojAssemblyReference.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.Properties.Resources.resources
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.GenerateResource.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.AssemblyInfoInputs.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.AssemblyInfo.cs
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.csproj.CopyComplete
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Infra.Data\obj\Debug\netcoreapp2.0\Infra.Data.pdb

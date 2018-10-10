@@ -1,0 +1,42 @@
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Aplication.deps.json
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Aplication.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Aplication.pdb
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Shared.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\bin\Debug\netcoreapp2.0\Shared.pdb
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.csprojAssemblyReference.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.AssemblyInfoInputs.cache
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.AssemblyInfo.cs
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.csproj.CopyComplete
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.dll
+C:\Users\aluno\Downloads\FaculdadeXPTO-master\Aplication\obj\Debug\netcoreapp2.0\Aplication.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Aplication.deps.json
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Aplication.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Aplication.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Shared.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Shared.pdb
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.csprojAssemblyReference.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.AssemblyInfoInputs.cache
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.AssemblyInfo.cs
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.csproj.CopyComplete
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.dll
+C:\Users\aluno\Downloads\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Aplication.deps.json
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Aplication.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Aplication.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Shared.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\bin\Debug\netcoreapp2.0\Shared.pdb
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.csprojAssemblyReference.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.csproj.CoreCompileInputs.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.AssemblyInfoInputs.cache
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.AssemblyInfo.cs
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.csproj.CopyComplete
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.dll
+C:\Users\leonardo.queres\Documents\Visual Studio 2017\Projects\TrabalhoWebMVC\Aplication\obj\Debug\netcoreapp2.0\Aplication.pdb

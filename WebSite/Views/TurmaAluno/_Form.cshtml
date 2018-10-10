@@ -1,0 +1,62 @@
+﻿@model TurmaAlunoTelaViewModel
+
+@{
+    var registrosReal = Model.TurmaAlunos?.Length ?? 0;
+    var registros = (registrosReal == 0 ? 1 : Model.TurmaAlunos.Length);
+    var Alunos = new SelectList(Model.Alunos, "Key", "Value");
+}
+<div class="modal modal-dialog" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content animated bounceInRight">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Alunos</label>
+                    <div class="col-lg-10 jquery-turmaAlunos">
+                        @for (var i = 0; i < registros; i++)
+                        {
+                            string nomeCampo = $"TelaTurmaAluno.TurmaAlunos[{i}]";
+                            <div class="jquery-campos-turmaAlunos @(registrosReal == 0 && !Model.ApenasUmTurmaAluno ? "hidden" : "")">
+                                <div class="form-group">
+                                    <input type="hidden" asp-for="TurmaAlunos[i].Id" name="@($"{nomeCampo}.Id")" />
+                                    <label asp-for="TurmaAlunos[i].AlunoId" class="col-lg-2 control-label">Aluno<span asp-validation-for="TurmaAlunos[i].AlunoId"></span></label>
+                                    <div class="col-lg-6">
+                                        <select asp-for="TurmaAlunos[i].AlunoId"
+                                                asp-items="Alunos"
+                                                name="@($"{nomeCampo}.AlunoId")"
+                                                class="form-control">
+                                            <option value="">Selecione</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        @if (!Model.ApenasUmTurmaAluno && base.ViewContext.RouteData.Values["action"].ToString() != "visualizar")
+                                        {
+                                            <button class="btn btn-sm btn-sucess" data-camposmultiplos-excluir data-camposmultiplos-dados="jquery-campos-turmaAlunos" type="button"><i class="fa fa-remove"></i> Excluir Aluno</button>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                @if (!Model.ApenasUmTurmaAluno && base.ViewContext.RouteData.Values["action"].ToString() != "visualizar")
+                {
+                    <button class="btn btn-sm btn-primary" data-camposmultiplos-adicionar data-camposmultiplos-container="jquery-turmaAlunos" data-camposmultiplos-dados="jquery-campos-turmaAlunos" type="button"><i class="fa fa-plus"></i> Adicionar Novo Aluno</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@*@if (!Model.ApenasUmTurmaAluno)
+    {
+        <div class="form-group">
+            <div class="col-lg-offset-2 col-lg-10">
+                <button class="btn btn-sm btn-sucess" data-camposmultiplos-adicionar data-camposmultiplos-container="jquery-turmaAlunos" data-camposmultiplos-dados="jquery-campos-turmaAlunos" type="button"><i class="fa fa-plus"></i> Adicionar Novo Aluno</button>
+            </div>
+        </div>
+    }*@

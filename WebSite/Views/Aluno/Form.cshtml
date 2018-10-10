@@ -1,0 +1,76 @@
+﻿@model AlunoViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Formulário de Aluno</h5>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal" asp-action="@base.ViewContext.RouteData.Values["action"]"
+                          data-fw-ajax data-fw-disable-fields="@Json.Serialize(Model.SomenteLeitura)">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group">
+                            <label asp-for="Matricula" class="col-lg-2 control-label">Matrícula<span asp-validation-for="Matricula"></span></label>
+                            <div class="col-lg-5">
+                                <input asp-for="Matricula"
+                                       type="text"
+                                       placeholder="Matrícula"
+                                       class="form-control"
+                                       maxlength="20"
+                                       data-val="true"
+                                       data-val-required="Obrigatório" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label" asp-for="Cpf">
+                                Fornecedor<span asp-validation-for="Cpf"></span>
+                            </label>
+                            <div class="col-lg-5">
+                                <input asp-for="Cpf"
+                                       type="text"
+                                       placeholder="CPF"
+                                       class="form-control jquery-campo jquery-validar-cpf"
+                                       maxlength="14"
+                                       data-mask="000.000.000-00"
+                                       data-val="true"
+                                       data-val-required="Obrigatório" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Nome" class="col-lg-2 control-label">Nome<span asp-validation-for="Nome"></span></label>
+                            <div class="col-lg-5">
+                                <input asp-for="Nome"
+                                       type="text"
+                                       placeholder="Nome"
+                                       class="form-control"
+                                       maxlength="200"
+                                       data-val="true"
+                                       data-val-required="Obrigatório" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+
+                                @if (!Model.SomenteLeitura)
+                                {
+                                    <button class="btn btn-sm btn-primary" type="submit">Salvar</button>
+                                }
+
+                                <a class="btn btn-sm btn-default" href="@Url.Action("Index")">Voltar</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/camposmultiplos.js"></script>
+}

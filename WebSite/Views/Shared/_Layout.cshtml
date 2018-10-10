@@ -1,0 +1,158 @@
+﻿@{
+    string controller = (string)base.ViewContext.RouteData.Values["controller"];
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@controller - Projeto</title>
+    <!-- Add local styles, mostly for plugins css file -->
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+
+    <environment include="Development">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="~/lib/metisMenu/dist/metisMenu.css" rel="stylesheet" />
+        <link href="~/css/animate.css" rel="stylesheet" />
+        <link href="~/lib/toastr/toastr.css" rel="stylesheet" />
+        <link href="~/lib/jquery-confirm2/css/jquery-confirm.css" rel="stylesheet" />
+        <link href="~/css/style.css" asp-append-version="true" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+    </environment>
+
+    <environment names="Staging,Production">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="~/lib/metisMenu/dist/metisMenu.css" rel="stylesheet" />
+        <link href="~/css/animate.css" rel="stylesheet" />
+        <link href="~/lib/toastr/toastr.css" rel="stylesheet" />
+        <link href="~/lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" rel="stylesheet" />
+        <link href="~/lib/jquery-confirm2/css/jquery-confirm.css" rel="stylesheet" />
+        <link href="~/css/style.css" asp-append-version="true" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+    </environment>
+
+    @*<environment exclude="Development">
+            <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+                  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+                  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+            <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        </environment>*@
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button aria-controls="navbar" aria-expanded="false" data-target=".navbar-collapse" data-toggle="collapse"
+                        class="navbar-toggle collapsed" type="button">
+                    <i class="fa fa-reorder"></i>
+                </button>
+                <a asp-area="" asp-controller="Aluno" asp-action="Index" class="navbar-brand">WebSite</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Aluno" asp-action="Index">Aluno</a></li>
+                    <li><a asp-area="" asp-controller="Disciplina" asp-action="Index">Disciplinas</a></li>
+                    <li><a asp-area="" asp-controller="Turma" asp-action="Index">Turma</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2018 - WebSite - Prática</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/lib/metisMenu/dist/metisMenu.js"></script>
+        <script src="~/lib/slimScroll/jquery.slimscroll.js"></script>
+        <script src="~/lib/pdfmake/build/pdfmake.js"></script>
+        <script src="~/lib/pdfmake/build/vfs_fonts.js"></script>
+        <script src="~/lib/jszip/dist/jszip.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/lib/jquery.blockui/jquery.blockUI.js"></script>
+        <script src="~/lib/jquery-confirm2/js/jquery-confirm.js"></script>
+        <script src="~/lib/jquery-form/src/jquery.form.js"></script>
+        <script src="~/lib/toastr/toastr.js"></script>
+        <script src="~/lib/jquery-mask-plugin/dist/jquery.mask.js"></script>
+
+        <!--framework-->
+        <script src="~/js/framework/fw-blockui.js"></script>
+        <script src="~/js/framework/fw-form.js"></script>
+        <script src="~/js/framework/fw-alert.js"></script>
+        <script src="~/js/framework/fw-delete-item.js"></script>
+        <script src="~/js/framework/fw-modal.js"></script>
+        <script src="~/js/framework/fw-load-by-field.js"></script>
+
+        <script src="~/js/script.js"></script>
+        <script src="~/lib/pace/pace.js"></script>
+        <script src="~/js/site.js"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/lib/metisMenu/dist/metisMenu.js"></script>
+        <script src="~/lib/slimScroll/jquery.slimscroll.js"></script>
+        <script src="~/lib/datatables.net/js/jquery.dataTables.js"></script>
+        <script src="~/lib/datatables.net-bs/js/dataTables.bootstrap.js"></script>
+        <script src="~/lib/datatables.net-buttons/js/dataTables.buttons.js"></script>
+        <script src="~/lib/datatables.net-buttons-bs/js/buttons.bootstrap.js"></script>
+        <script src="~/lib/pdfmake/build/pdfmake.js"></script>
+        <script src="~/lib/pdfmake/build/vfs_fonts.js"></script>
+        <script src="~/lib/jszip/dist/jszip.js"></script>
+        <script src="~/lib/datatables.net-buttons/js/buttons.colVis.js"></script>
+        <script src="~/lib/datatables.net-buttons/js/buttons.flash.js"></script>
+        <script src="~/lib/datatables.net-buttons/js/buttons.html5.js"></script>
+        <script src="~/lib/datatables.net-buttons/js/buttons.print.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/lib/jquery.blockui/jquery.blockUI.js"></script>
+        <script src="~/lib/jquery-confirm2/js/jquery-confirm.js"></script>
+        <script src="~/lib/jquery-form/src/jquery.form.js"></script>
+        <script src="~/lib/toastr/toastr.js"></script>
+        <script src="~/lib/jquery-mask-plugin/dist/jquery.mask.js"></script>
+        <script src="~/lib/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+        <script src="~/lib/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+        <script src="~/lib/select2/dist/js/select2.js"></script>
+
+        <!--framework-->
+        <script src="~/js/framework/fw-blockui.js"></script>
+        <script src="~/js/framework/fw-form.js"></script>
+        <script src="~/js/framework/fw-alert.js"></script>
+        <script src="~/js/framework/fw-delete-item.js"></script>
+        <script src="~/js/framework/fw-modal.js"></script>
+        <script src="~/js/framework/fw-load-by-field.js"></script>
+
+        <script src="~/js/script.js"></script>
+        <script src="~/lib/pace/pace.js"></script>
+        <script src="~/js/site.js"></script>
+    </environment>
+    @*<environment exclude="Development">
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+            </script>
+            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+            </script>
+            <script src="~/js/site.min.js" asp-append-version="true"></script>
+        </environment>*@
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
